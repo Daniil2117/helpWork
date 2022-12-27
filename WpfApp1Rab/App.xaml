@@ -1,0 +1,25 @@
+﻿<Application x:Class="WpfApp1Rab.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp1Rab"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="buttonBrush" Color="#fffcd6" />
+
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Verdana" />
+            <Setter Property="Background" Value="{ StaticResource buttonBrush }" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Margin" Value="10" />
+        </Style>
+
+        <SolidColorBrush x:Key="textboxBrush" Color="#fffcd6" />
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="Verdana"/>
+            <Setter Property="Background" Value="{ StaticResource textboxBrush }" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Margin" Value="10" />
+        </Style>
+
+    </Application.Resources>
+</Application>
